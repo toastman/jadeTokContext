@@ -1,0 +1,31 @@
+{
+  "name": "jade-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^3.1.0",
+    "eslint": "^0.20.0",
+    "express": "^4.12.3",
+    "jade": "1.9.0",
+    "node-jsx": "^0.13.3",
+    "react": "^0.13.2"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "ecmaFeatures": {
+      "generators": true,
+      "forOf": true
+    },
+    "env": { "node": true },
+    "rules": {
+      "quotes": [ 0, "double" ],
+      "no-trailing-spaces": 1
+    }
+  }
+}
